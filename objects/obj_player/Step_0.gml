@@ -19,11 +19,16 @@ show_debug_message("angle {0}, speed {1}", image_angle, phy_speed);
 
 if keyboard_check(vk_left)
 {	
-	physics_apply_angular_impulse(turning_force * direction_multiplier * -1);
+	physics_apply_angular_impulse(turning_force * phy_speed * direction_multiplier * -1);
 }
 if keyboard_check(vk_right)
 {
-	physics_apply_angular_impulse(turning_force * direction_multiplier);
+	physics_apply_angular_impulse(turning_force * phy_speed * direction_multiplier);
 }
 
 image_angle %= 360;
+
+
+
+
+audio_sound_pitch(snd_diesel_idle, (phy_speed) + 1);//((phy_speed * 1.5) % 5) + 1 + (phy_speed / 3));

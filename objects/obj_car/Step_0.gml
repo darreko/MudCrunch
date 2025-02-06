@@ -1,0 +1,1 @@
+audio_sound_pitch(snd_diesel_idle, (phy_speed) + 1);
