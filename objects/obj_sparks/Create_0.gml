@@ -1,0 +1,1 @@
+fade_speed = random_range(0.05, 0.5);

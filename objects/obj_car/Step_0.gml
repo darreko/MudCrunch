@@ -1,1 +1,2 @@
-audio_sound_pitch(snd_diesel_idle, (phy_speed) + 1);
+
+audio_sound_pitch(my_sound_id, (phy_speed) + 1 + my_engine_pitch_adjustment);
