@@ -1,0 +1,1 @@
+GetCollisionDamage(obj_physics_base, other);

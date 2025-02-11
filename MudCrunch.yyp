@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
+    {"id":{"name":"obj_physics_base","path":"objects/obj_physics_base/obj_physics_base.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_sparks","path":"objects/obj_sparks/obj_sparks.yy",},},
     {"id":{"name":"obj_text_splash","path":"objects/obj_text_splash/obj_text_splash.yy",},},

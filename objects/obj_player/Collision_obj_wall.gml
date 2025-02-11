@@ -1,1 +1,0 @@
-GetCollisionDamage(obj_player, other);
