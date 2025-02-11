@@ -1,1 +1,0 @@
-GetCollisionDamage(obj_car, other);

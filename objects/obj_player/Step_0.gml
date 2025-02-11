@@ -32,6 +32,3 @@ image_angle %= 360;
 
 
 audio_sound_pitch(my_sound_id, (phy_speed) + 1);//((phy_speed * 1.5) % 5) + 1 + (phy_speed / 3));
-
-previous_speed_x = phy_speed_x;
-previous_speed_y = phy_speed_y;

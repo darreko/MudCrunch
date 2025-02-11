@@ -1,4 +1,4 @@
-function GetCollisionDamage(obj1, obj2){
+function GetCollisionDamage(obj1, obj2){	
 	var impact_x = obj1.previous_speed_x - obj2.previous_speed_x;
 	var impact_y = obj1.previous_speed_y - obj2.previous_speed_y;
 	var impact_total_real = abs(impact_x + impact_y); // absolute value since the total can be negative.
